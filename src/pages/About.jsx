@@ -42,29 +42,47 @@ export default function About() {
             </h2>
             <p className="text-gray-700">
               <div>
-                StemTec is a forward-thinking company specializing in the
-                development and application of AI and robotics solutions
-                tailored specifically for the education and industry sectors.
-                The company is dedicated to transforming learning environments
-                by integrating cutting-edge AI technologies and robotic systems,
-                enhancing the educational experience for students and educators
-                alike.
+                Welcome to STEMTEC AI and Robotics, India's premier AI coding
+                and robotics lab setup company. We deliver comprehensive,
+                end-to-end solutions for K-12 schools, fully aligned with the
+                National Education Policy (NEP) 2020. Our mission is to empower
+                students and educators with the 21st-century skills they need to
+                excel in a fast-changing technological world.
               </div>
               <br />
               <div>
-                In the industrial sector, StemTec's innovative solutions are
-                designed to streamline operations, improve efficiency, and
-                foster a future-ready workforce. By merging advanced robotics
-                with AI, StemTec provides industries with tools that not only
-                automate tasks but also enable smarter decision-making
-                processes.
+                Through our K-12 solutions, we provide schools with essential
+                tools and resources to inspire young minds, fostering curiosity
+                and a spirit of exploration. Our holistic approach supports both
+                students and teachers, equipping them with the expertise needed
+                to thrive in the 21st century. Join STEMTEC AI and Robotics on
+                our mission to transform STEM education. As a leader in AI and
+                robotics, we are committed to preparing students for a
+                technology-driven future. Together, let’s unlock each student’s
+                potential, ignite a lifelong passion for learning, and create a
+                brighter tomorrow.
               </div>
               <br />
               <div>
-                StemTec's mission is to bridge the gap between technology and
-                practical application, making sophisticated AI and robotics
-                accessible and beneficial to educational institutions and
-                industrial enterprises globally.
+                <div>Mission</div>{" "}
+                <div>
+                  To empower the next generation with essential 21st-century
+                  skills through innovative STEM education, fostering
+                  creativity, problem-solving, and technological proficiency in
+                  K-12 students. We are dedicated to equipping educators and
+                  students with the resources and knowledge to thrive in a
+                  rapidly advancing world, building a foundation for lifelong
+                  learning and success.
+                </div>
+                <div>Vision</div>{" "}
+                <div>
+                  To become the foremost leader in AI and robotics education for
+                  K-12, creating a future where every student has access to
+                  transformative, hands-on STEM learning experiences. Our vision
+                  is to cultivate curious, capable, and resilient young
+                  innovators who are prepared to shape and lead a
+                  technology-driven world.
+                </div>
               </div>
             </p>
           </div>
