@@ -16,9 +16,10 @@ export default function Home() {
         <img src="/download.png" alt="Robot Picture" className="w-full" />
       </div>
       <div className="flex flex-col items-center">
-        <div className="font-semibold text-5xl md:text-9xl text-gray-700">
+        <img src="/compLogoHiRes.jpeg" alt="" className="w-96" />
+        {/* <div className="font-semibold text-5xl md:text-9xl text-gray-700">
           <span className="text-indigo-700">Stem</span>Tec
-        </div>
+        </div> */}
       </div>
       <div className="flex flex-col items-center ">
         <div className="text-gray-700 text-sm md:text-3xl ">

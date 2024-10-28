@@ -14,9 +14,10 @@ export default function Navbar() {
     <div className="flex justify-between p-5 items-center ">
       <div>
         <Link to="/">
-          <h1 className="font-semibold w-4/5 text-3xl text-gray-700">
-            <span className="text-indigo-700">Stem</span>Tec
-          </h1>
+          <img src="/compLogoHiRes.jpeg" alt="" className="w-40" />
+          {/* <h1 className="w-4/5 text-3xl text-gray-800 font-extrabold font-sans">
+            <span className="text-grey-700 font-extrabold">STEM</span>TEC
+          </h1> */}
         </Link>
       </div>
 
