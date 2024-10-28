@@ -8,6 +8,8 @@ import Contact from "./pages/Contact";
 import { Routes, Route } from "react-router-dom";
 import ProductPage from "./components/ProductPage";
 import IotDevelopmentBoard from "./products/IotDevelopmentBoard";
+import StembotNonAI from "./products/StembotNonAI";
+import StembotAI from "./products/StembotAI";
 
 export default function App() {
   return (
@@ -23,6 +25,8 @@ export default function App() {
         <Route path="/Contact" element={<Contact />} />
         <Route path="/ProductPage" element={<ProductPage />} />
         <Route path="/IotDevelopmentBoard" element={<IotDevelopmentBoard />} />
+        <Route path="/StembotNonAI" element={<StembotNonAI />} />
+        <Route path="/StembotAI" element={<StembotAI />} />
       </Routes>
     </>
   );

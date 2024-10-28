@@ -70,6 +70,18 @@ export default function IotDevelopmentBoard() {
         >
           Contact us ➡️
         </button>
+
+        <button
+          className="bg-green-500 hover:bg-green-700 text-white ml-2 font-bold py-2 px-4 rounded md:mt-8"
+          onClick={() => {
+            window.open(
+              "https://wa.me/6380546966?text=Hi%20StemTec%20Team,%20I%20want%20to%20enquire%20about%20your%20product.",
+              "_blank"
+            );
+          }}
+        >
+          WhatsApp Us
+        </button>
       </div>
     </div>
   );
