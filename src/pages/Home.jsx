@@ -22,7 +22,7 @@ export default function Home() {
       </div>
       <div className="flex flex-col items-center ">
         <div className="text-gray-700 text-sm md:text-3xl ">
-          Shaping Tomorrow with AI, Smart Robotics and IoT
+          Empowering Yound Minds for Innnovation
         </div>
       </div>
 

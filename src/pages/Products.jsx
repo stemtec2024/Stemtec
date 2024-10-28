@@ -19,8 +19,16 @@ export default function Products() {
         />
 
         <ProductCardsTwo
-          name={"Stembot x2 AI version (Autonomous)"}
+          name={"STEMBOT X2 (Autonomous)"}
           img={"./agv.jpg"}
+          route={"StembotNonAI"}
+          price={3999}
+        />
+
+        <ProductCardsTwo
+          name={"STEMBOT X2 AI-NVIDIA ISAAC version (Autonomous)"}
+          img={"./agv.jpg"}
+          route={"StembotAI"}
           price={3999}
         />
 
