@@ -38,7 +38,7 @@ export default function About() {
               About us
             </span>
             <h2 className="my-4 font-bold text-3xl  sm:text-4xl ">
-              About <span className="text-indigo-600">StemTec</span>
+              About <span className="text-indigo-600">STEMTEC</span>
             </h2>
             <p className="text-gray-700">
               <div>
