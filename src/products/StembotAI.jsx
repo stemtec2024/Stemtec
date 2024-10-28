@@ -4,27 +4,43 @@ export default function StembotAI() {
   const [selectImg, setSelectImg] = useState("./agv.jpg");
   return (
     <div className="flex mt-5 flex-col md:flex-row">
-      <img src={selectImg} alt="" className="md:w-4/12 md:h-2/4" />{" "}
-      <div className="flex ml-7 space-x-2 md:invisible">
+      <div className="flex flex-col">
         <img
-          src="agv.jpg"
-          alt="agv.jpg"
-          className="w-20 border-2"
-          onClick={() => {
-            setSelectImg("agv.jpg");
-          }}
-        />
-        <img
-          src="agv.jpg"
-          alt="agv.jpg"
-          className="w-20 border-2"
-          onClick={() => {
-            setSelectImg("agv.jpg");
-          }}
-        />
+          src={selectImg}
+          alt=""
+          className="items-center md:w-8/12 md:h-2/4"
+        />{" "}
+        <div className="flex flex-col items-center mt-8">
+          <p className="text-gray-700 font-semibold text-lg mb-4">Powered by</p>
+          <div className="flex space-x-8">
+            <img src="/nvidia-logo.png" alt="Logo 1" className="h-16 w-auto" />
+            <img src="/omniverse.png" alt="Logo 2" className="h-16 w-auto" />
+          </div>
+        </div>
       </div>
+
+      {/* <div className="flex ml-7 space-x-2 md:invisible">
+        <img
+          src="agv.jpg"
+          alt="agv.jpg"
+          className="w-20 border-2"
+          onClick={() => {
+            setSelectImg("agv.jpg");
+          }}
+        />
+        <img
+          src="agv.jpg"
+          alt="agv.jpg"
+          className="w-20 border-2"
+          onClick={() => {
+            setSelectImg("agv.jpg");
+          }}
+        />
+      </div> */}
       <div className="m-10">
-        <div className="font-bold text-4xl ">STEMBOT X2 (Autonomous)</div>
+        <div className="font-bold text-4xl ">
+          STEMBOT X2 AI-NVIDIA ISAAC version (Autonomous)
+        </div>
         <div className="text-gray-500">StemTec AI & Robotics PVT LTD</div>
         <div className="mt-5">
           <ul className="list-disc list-inside space-y-3">
